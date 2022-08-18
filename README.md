@@ -1,18 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project with tailwind and typescript installed and all set up!
+# Epiphany's Miscellaneous Tailwind Components
 
-I recently started learning Next and tailwind but all the templates I would find had lots of dependencies
-that I was not using. So I created this.
+Do you know _that itch_?
+Like when you make something useful, feeling like it's going to be lost
+if you don't save it somewhere?
 
-## Getting Started
+So, this is my attempt to preserve some of the components I created
+when stuff _clicked_ with tailwind.
 
-Run the development server with:
+## List of all components
 
-```bash
-npm run dev
-```
+- card
 
-Then visit [http://localhost:300](http://localhost:3000)
-
-## Next Steps
-
-The only thing remaining is to have fun!
+Please pardon my lack of skills if you see something that annoys you.
