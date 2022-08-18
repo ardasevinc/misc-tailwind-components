@@ -15,7 +15,7 @@ const Showroom = () => {
       <header className="p-8">
         <h1 className="text-4xl font-bold">The Showroom</h1>
       </header>
-      <main className="outline-2 outline-dashed h- max-w-4xl mx-auto p-4">
+      <main className="mx-auto max-w-4xl p-4 outline-dashed outline-2">
         <div className="flex flex-col gap-y-8">
           <OneCard />
           <OneCard />
