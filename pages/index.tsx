@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +11,11 @@ const Home: NextPage = () => {
       <main className="flex flex-1 flex-col items-center justify-center gap-y-4 bg-slate-900 text-white">
         <h1 className="text-4xl font-bold">Hello World!</h1>
         <p>I can&apos;t wait to see what you create!</p>
+        <Link href="/showroom">
+          <a className="text-lg hover:ring hover:ring-sky-400 underline rounded-md p-2 focus:outline-none focus-visible:ring focus-visible:ring-sky-400">
+            Go to Showroom
+          </a>
+        </Link>
       </main>
     </>
   );
