@@ -14,9 +14,9 @@ const Showroom = () => {
   return (
     <div className="flex-1 bg-slate-900 text-white">
       <header className="p-8">
-        <h1 className="text-4xl font-bold mb-4">The Showroom</h1>
+        <h1 className="mb-4 text-4xl font-bold">The Showroom</h1>
         <Link href="/">
-          <a className="text-lg hover:ring hover:ring-sky-400 underline rounded-md p-2 focus:outline-none focus-visible:ring focus-visible:ring-sky-400">
+          <a className="rounded-md p-2 text-lg underline hover:ring hover:ring-sky-400 focus:outline-none focus-visible:ring focus-visible:ring-sky-400">
             Go back
           </a>
         </Link>
