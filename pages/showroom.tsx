@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Card from "../components/card";
+import Button from "../components/button";
 
 const Showroom = () => {
   const OneCard = () => (
@@ -22,10 +23,27 @@ const Showroom = () => {
         </Link>
       </header>
       <main className="mx-auto max-w-4xl p-4 outline-dashed outline-2">
-        <div className="flex flex-col gap-y-8">
-          <OneCard />
-          <OneCard />
-          <OneCard />
+        <div className="flex w-full gap-4">
+          <div className="flex w-full flex-col gap-y-8">
+            <OneCard />
+            <OneCard />
+            <OneCard />
+          </div>
+          <div className="w-1/4 bg-slate-300 rounded-lg p-8 relative scale-95 hover:scale-100 transition-all ease-in duration-150">
+            <h2 className="text-4xl text-center font-bold text-black mb-8">
+              This is a title
+            </h2>
+            <ul className="text-lg text-black text-justify divide-y-2">
+              <li>Lorem</li>
+              <li>Ipsum</li>
+              <li>Dolor</li>
+              <li>Sit</li>
+              <li>Amet</li>
+            </ul>
+            <div className="absolute bottom-2">
+              <Button />
+            </div>
+          </div>
         </div>
       </main>
     </div>
